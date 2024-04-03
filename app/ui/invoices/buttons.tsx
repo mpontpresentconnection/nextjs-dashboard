@@ -1,7 +1,7 @@
 import { PencilIcon, PlusIcon, TrashIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { deleteInvoice } from '@/app/lib/actions';
-import Form from "@/app/ui/invoices/create-form";
+import Form from '@/app/ui/invoices/create-form';
 
 export function CreateInvoice() {
   return (
